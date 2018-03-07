@@ -15,3 +15,5 @@ http://localhost/blockchaincat/index.php?port=5000
 
 http://localhost/blockchaincat/index.php?port=5001
 
+需要配置py和php运行环境
+
