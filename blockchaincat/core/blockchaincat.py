@@ -86,7 +86,7 @@ class Blockchaincat:
             'amount': amount,
             'msg': msg,
             'time': datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        })
+        }) 
         return self.last_block['index'] + 1
 
     @property

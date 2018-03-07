@@ -133,7 +133,7 @@ def register_nodes():
     if nodes is None:
         return "Error: nodes is null", 400
 
-    for node in nodes:
+    for node in nodes: 
         blockchain.register_node(node)
 
     response = {
